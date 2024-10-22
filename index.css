@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --width: 1000px;
+    --header-height:
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    position: absolute;
+    width: var(--width);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    background-color: lightgray;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    margin-bottom: 0;
+}
+
+.header > h2 {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h2, h1, h3, h4, p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;    
+}
+
+.main {
+    position: absolute;
+    margin-top: 0;
+    z-index: 1;
+    width: var(--width);
+}
+
+.image {
+    position: fixed;
+    width: var(--width);
+    height: 100%;
+    z-index: -1;
+
+    background-image: url('stalingrad.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-section-white {
+    background-color: white;
+    position: absolute;
+    width: var(--width);
+    height: 400px;
+    z-index: 1;
+}
+
+.spacing {
+    position: relative;
+    height: 600px;
+}
+
+.section-white {
+    background-color: white;
+    width: var(--width);
+    z-index: 1;
+    height: 100%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 85px;
+    margin-left: 15%;
+}
