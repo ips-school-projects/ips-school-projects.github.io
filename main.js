@@ -1,3 +1,7 @@
-window.addEventListener("scroll", () => {
-    document.body.style.setProperty("--scroll", window.scrollY / (document.body.offsetHeight - window.innerHeight));
-}, false);
+function singapore() {
+  document.location.href = "singapore.html"
+}
+
+function stalingrad() {
+  document.location.href = "index.html"
+}
