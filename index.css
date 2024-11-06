@@ -295,6 +295,10 @@ p {
     margin-left: 10%;
 }
 
+.timeline .date-far {
+    left: 60vw !important;
+}
+
 .img-center {
     display: flex;
     justify-content: center;
