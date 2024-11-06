@@ -3,5 +3,9 @@ function singapore() {
 }
 
 function stalingrad() {
+  document.location.href = "stalingrad.html"
+}
+
+function home() {
   document.location.href = "index.html"
 }
